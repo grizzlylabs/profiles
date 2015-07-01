@@ -1,4 +1,4 @@
 # Base for Puppet Master        
-class profile::puppetmaster {
+class profiles::puppetmaster {
    require ::puppet_service
 }
